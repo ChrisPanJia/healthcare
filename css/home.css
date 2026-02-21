@@ -129,3 +129,97 @@ main {
     height: 7%;
     border-radius: 50%;
 }
+
+
+/* ============================= */
+/* ========= MOBILE ============ */
+/* ============================= */
+@media (max-width: 768px) {
+
+    /* 取消main左右大padding */
+    main {
+        padding: 0 20px;
+    }
+
+    /* ========= Header区域 ========= */
+
+    header {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .calmerIntro {
+        position: relative;      /* 取消绝对定位 */
+        width: 90%;
+        height: auto;
+        right: 0;
+        margin: 80px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .calmerIntro h1 {
+        font-size: 1.5em;
+    }
+
+    .startbutton {
+        width: 70%;
+    }
+
+    /* ========= 产品卡片 ========= */
+
+    .event-card {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .event-card img {
+        height: 200px;
+    }
+
+    .order-button {
+        width: 70%;
+    }
+
+    /* ========= 服务分类 ========= */
+
+    .service-category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-category-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* ========= testimonial ========= */
+
+    .testimonial {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w60,
+    .w40 {
+        width: 100%;
+    }
+
+    /* ========= footer ========= */
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-s5 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+}
